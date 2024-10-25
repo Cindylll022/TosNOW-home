@@ -9,7 +9,7 @@ document.querySelectorAll('a.scroll-link').forEach(anchor => {
     });
 });
 
-// Show and hide scroll to top button
+
 const scrollToTopBtn = document.getElementById('scrollToTopBtn');
 
 window.onscroll = function() {
@@ -20,7 +20,7 @@ window.onscroll = function() {
     }
 };
 
-// Scroll to top functionality
+
 scrollToTopBtn.addEventListener('click', function() {
     window.scrollTo({
         top: 0,
