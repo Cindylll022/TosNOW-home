@@ -1,4 +1,4 @@
-// Smooth Scroll for links
+
 document.querySelectorAll('a.scroll-link').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
